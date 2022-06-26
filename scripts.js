@@ -63,11 +63,11 @@ var products = [
         "quantity": 1
     }
 ];
- 
+
 const SelfServiceMachine = {
     data() {
         return {
-            products
+            products: window.products
         }
     }
 };
